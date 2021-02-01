@@ -40,6 +40,5 @@ function insertBird() {
 }
 
 function generateBird() {
-    debugger;
     return ADJ_PICKERS.random()() + ' ' + BASE_BIRDS.random()
 }
